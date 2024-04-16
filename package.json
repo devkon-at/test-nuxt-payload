@@ -1,0 +1,25 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "generate:types": "payload generate:types"
+  },
+  "dependencies": {
+    "nuxt": "^3.11.2",
+    "payload": "^3.0.0-beta.0",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0",
+    "@payloadcms/db-postgres": "3.0.0-beta.0",
+    "@payloadcms/next": "3.0.0-beta.0",
+    "@payloadcms/richtext-lexical": "3.0.0-beta.0",
+    "@payloadcms/richtext-slate": "3.0.0-beta.0",
+    "@payloadcms/translations": "3.0.0-beta.0",
+    "@payloadcms/ui": "3.0.0-beta.0"
+  }
+}
